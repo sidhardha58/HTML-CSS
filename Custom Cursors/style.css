@@ -1,3 +1,10 @@
+body {
+  background-color: lightblue;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
 .container {
   display: flex;
   height: 90vh; /* Full height of the viewport */
@@ -22,56 +29,57 @@
   border: 1px solid #000;
   margin: 0px 4px;
   box-sizing: border-box;
+  background-color: beige;
 }
 
 .con1 {
-  cursor: url("1.png"), auto;
+  cursor: url("Cursor Img1.png"), auto;
 }
 
 .con2 {
-  cursor: url("11.png"), auto;
+  cursor: url("Cursor Img11.png"), auto;
 }
 
 .con3 {
-  cursor: url("3.png"), auto;
+  cursor: url("Cursor Img3.png"), auto;
 }
 
 .con4 {
-  cursor: url("4.png"), auto;
+  cursor: url("Cursor Img4.png"), auto;
 }
 
 .con5 {
-  cursor: url("5.png"), auto;
+  cursor: url("Cursor Img5.png"), auto;
 }
 
 .con6 {
-  cursor: url("6.png"), auto;
+  cursor: url("Cursor Img6.png"), auto;
 }
 
 .con7 {
-  cursor: url("7.png"), auto;
+  cursor: url("Cursor Img7.png"), auto;
 }
 
 .con8 {
-  cursor: url("8.png"), auto;
+  cursor: url("Cursor Img8.png"), auto;
 }
 
 .con9 {
-  cursor: url("9.png"), auto;
+  cursor: url("Cursor Img9.png"), auto;
 }
 
 .con10 {
-  cursor: url("10.png"), auto;
+  cursor: url("Cursor Img10.png"), auto;
 }
 
 .con11 {
-  cursor: url("2.png"), auto;
+  cursor: url("Cursor Img2.png"), auto;
 }
 
 .con12 {
-  cursor: url("12.png"), auto;
+  cursor: url("Cursor Img12.png"), auto;
 }
 
 .con13 {
-  cursor: url("13.png"), auto;
+  cursor: url("Cursor Img13.png"), auto;
 }
