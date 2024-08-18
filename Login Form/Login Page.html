@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div class="login">
+      <img src="images1.jpeg" alt="BackGroung" class="loginImg" />
+      <form action="" class="container">
+        <h1 class="loginTitle">Login</h1>
+        <div class="loginDetails">
+          <div class="email">
+            <i class="fa-regular fa-user" id="user"></i>
+            <div class="emailInput">
+              <input
+                type="email"
+                required
+                class="loginInput"
+                id="loginEmail"
+                placeholder="Email"
+              />
+            </div>
+          </div>
+          <br />
+          <div class="password">
+            <i class="fa-solid fa-lock" id="pass"></i>
+            <div class="passwordInput">
+              <input
+                type="password"
+                required
+                class="loginInput"
+                id="loginPassword"
+                placeholder="Password"
+              />
+              <i class="fa-solid fa-eye-slash" id="eye"></i>
+            </div>
+          </div>
+        </div>
+        <div class="loginCheck">
+          <div class="rememberMe">
+            <input type="checkbox" id="rememberMe" />
+            <label class="rememberMeLabel">Remember me</label>
+          </div>
+          <a href="#" class="forgotPassword">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="loginSubmit">Login</button>
+
+        <p class="register">Don't Have an Account? <a href="#">Register</a></p>
+      </form>
+    </div>
+  </body>
+</html>
